@@ -23,16 +23,6 @@ class Person
         end
     end
     
-        #     binding.pry
-    #     case happiness
-    #     when happiness > 10
-    #         @happiness = 10
-    #     when happiness < 0
-    #         @happiness = 0
-    #     else
-    #         @happiness = happiness 
-    #     end
-    # end
 
     def hygiene=(hygiene)
         #binding.pry
