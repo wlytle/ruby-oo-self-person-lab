@@ -22,10 +22,8 @@ class Person
             @happiness = happiness
         end
     end
-    
 
     def hygiene=(hygiene)
-        #binding.pry
         if hygiene > 10
             @hygiene = 10
         elsif hygiene < 0 
